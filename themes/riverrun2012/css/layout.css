@@ -1,0 +1,721 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+#background_wrapper { 
+	min-width:1000px;
+	background: url(../images/repeat_bg.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	margin:0px;
+
+	
+}
+
+#wordmark a {
+	background-image:url(../images/wordmark.png);
+	min-width:1000px;
+	height:70px;
+	background-repeat:no-repeat;
+	background-position-x:20px;
+	background-position-y:20px;
+}
+
+#wordmark a {
+	background-image:url(../images/wordmark.png);
+	display:block;
+	min-width:1000px;
+	height:70px;
+	background-repeat:no-repeat;
+	background-position-x:20px;
+	background-position-y:20px;
+}
+
+#wordmark a span {
+	visibility: hidden;
+}
+
+#header {
+	background: url(../images/header2.png) top center;
+	background-repeat:no-repeat;
+	height:639px;	
+	display:block;
+}
+
+#header_wrapper {
+	width:1000px;
+	margin:0px auto;
+	height:70px;
+	
+}
+
+
+a#back_to_top {
+	position:fixed;
+	width:226px;
+	height:42px;
+	top:20px;
+	right:20px;
+	background:url(../images/backtotop.png) 0 0 no-repeat;
+	background-origin:padding-box;
+	background-attachment:scroll;
+	background-clip:border-box;
+	overflow:hidden;
+	text-indent:9999px;
+
+	
+}
+
+.left_content {
+	float:left;
+	width:400px;
+
+}
+
+.right_content {
+	float:left;
+	width:400px;
+}
+	
+#nav {
+	display:block;
+	bottom:0px;
+	float:left;
+	margin-left:300px;
+	margin-top:430px;
+}
+
+#nav ul li {
+	float: left;
+	display: block;
+	width:auto;
+	margin-left:25px;
+	
+}
+
+
+#nav ul {
+	width:600px;
+	
+}
+
+
+#nav a {
+	border:none;
+	background:none;
+	font-size:20px;
+	font-weight:bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-decoration:none;
+	color:#FFF;
+	margin:0px auto;
+
+}
+
+
+
+
+/*
+ul {
+	text-decoration:none;
+	list-style-type:none;
+}
+
+li {
+	text-decoration:none;
+	list-style-type:none;
+	margin-left: 300px;
+
+}
+*/
+
+#summary {
+	background: url(../images/top.png) top center;
+	background-repeat:repeat-x;
+	height:auto;
+	display:block;
+
+}
+
+#summary_wrapper {
+	width:900px;
+	margin:auto;
+	
+}
+
+#summary h2 { 
+	font-family: 'Alfa Slab One', cursive;
+	text-align:center;
+	font-weight:normal;
+	color:#0085b5;
+	font-size:55px;
+	padding-top:25px;
+	margin-bottom:20px;
+	
+}
+
+#summary p {
+	width:350px;
+	font-famil
+	font-style:italic;
+	font-weight:normal;
+	color:#686868;
+	font-size:27px;
+	margin-top:0px;
+	margin-bottom:30px;
+	margin-left:0px;
+}
+
+
+.summary_button {
+	font-family: 'Alfa Slab One', cursive;
+	font-weight:normal;
+	background:#5cbe77;
+	text-decoration:none;
+	color:#FFF;
+	font-size:30px;
+	border-radius:5px;
+	padding:8px;
+	margin-top:20px;
+	width:250px;
+    box-shadow:1px 1px 1px #1e7c36;
+}
+
+	
+
+#about {
+	width:395px;
+	float:left;
+}
+
+#about img {
+	border:none;
+	background:none;
+	width:55px;
+	height:55px;
+
+	
+}
+
+
+#photo {
+	width:500px;
+	float:right;
+	margin-right:0px;
+	
+}
+
+#photo img{
+	background:#FFF;
+	margin:0px auto;
+	margin:0px auto;
+	padding-right:0px;
+	width:497px;
+	
+}
+
+#social_media{ 
+	float:right;
+	margin-left:-20px;
+	padding-left:0px;
+
+}
+
+#social_media a {
+	background:none;
+	box-shadow:none;
+	border:none;
+	width:75px;
+	height:75px;
+}
+
+#social_media img {
+	width:60px;
+	height:60px;
+	float:right;
+	padding-right:5px;
+	padding-top:0px;
+	margin-top:-10px;
+	margin-right:5px;
+	
+}
+
+
+#info_wrapper {
+	min-width:1000px;
+	height:auto;
+	
+}
+	
+
+#race_info {
+
+	background-color:#c0dff3;
+
+	/*height:1200px;*/
+	/*margin-top:-400px;*/
+	
+}
+
+#race_info p{	
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#686868;
+	font-size:18px;
+	margin-top:-25px;
+	margin-bottom:30px;
+	width:415px;
+	
+}
+
+.separator {
+	min-width: 1000px;	
+	
+}
+
+.separator#race_info_separate {
+	background-image:url(../images/raceinfo_bottom.png);
+	height:86px;
+	padding:0px;
+	
+}
+
+.separator#summary_separate {
+	background-image:url(../images/summary_bottom.png);	
+	height: 83px;
+
+}
+
+
+.separator#volunteer_separate {
+	height: 89px;
+	background-image:url(../images/volunteer_bottom.png);
+
+}
+
+.separator#contact_separate {
+	background-image:url(../images/story_bottom.png);
+	height:89px;
+	
+	
+}
+
+.separator#sponsors_separate {
+	background-image:url(../images/contact_bottom.png);
+	height: 83px;
+	margin-top:0px;
+	padding:0px;
+
+}
+
+
+#race_info_content{ 
+	width:1000px;
+	margin:auto;
+	
+}
+
+#race_info h2{
+	/*padding-top:130px;*/
+	text-align:center;
+	font-family: 'Alfa Slab One', cursive;
+	color: #0085b5;
+	font-size:30px;
+	font-weight:normal;
+	margin:0px;
+	padding-top:60px;
+}
+
+h2{
+	/*padding-top:130px;*/
+	text-align:center;
+	font-family: 'Alfa Slab One', cursive;
+	color: #0085b5;
+	font-size:30px;
+	font-weight:normal;
+	margin:0px;
+}
+
+h3{
+	font-family: 'Alfa Slab One', cursive;
+	color: #0085b5;
+	font-size:30px;
+	font-weight:normal;
+	
+}
+
+h4{
+	font-family: 'Alfa Slab One', cursive;
+	color: #0085b5;
+	font-size:20px;
+	font-weight:normal;
+	
+	
+}
+
+p{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#686868;
+	font-size:18px;
+	margin-top:-25px;
+	margin-bottom:30px;
+	
+}
+
+#where{
+	float:left;
+	width:400px;
+	margin-left:60px;
+	
+	
+}
+
+.where_button {
+	font-family: 'Alfa Slab One', cursive;
+	font-weight:normal;
+	background:#5cbe77;
+	text-decoration:none;
+	line-height:20px;
+	color:#FFF;
+	font-size:32px;
+	border-radius:5px;
+	padding:8px;
+	margin-left:0px;
+	box-shadow:1px 1px 1px #1e7c36;
+	
+}
+
+#when{
+	float:left;
+	width:400px;
+	margin:auto;
+}
+
+#volunteer {
+
+	background-repeat:repeat-x;
+	background-color:#e1f9f9;
+
+
+}
+
+#volunteer_wrapper{
+	width:1000px;
+	margin:auto;
+	height:auto;
+}
+	
+#volunteer h2{
+	font-family: 'Alfa Slab One', cursive;
+	color: #0085b5;
+	text-align:center;
+	font-size:40px;
+	font-weight:normal;
+	padding-top:60px;
+
+	
+}
+
+#volunteer h3 {
+	
+	padding:0px;
+	margin:0px auto;
+	font-weight:normal;
+	font-size:40px;
+	margin-top:30px;
+}
+
+.volunteer_wrapper_button{
+	font-family: 'Alfa Slab One', cursive;
+	font-weight:normal;
+	background:#5cbe77;
+	text-decoration:none;
+	color:#FFF;
+	font-size:30px;
+	border-radius:5px;
+	padding:10px;
+	margin-left:50px;
+	box-shadow:2px 2px 2px #1e7c36;
+}
+
+#volunteering {
+	float:left;
+	width:350px;
+	
+}
+
+#volunteering ul {
+	padding-top:7px;
+	padding-left:23px;
+	
+}
+
+#volunteering li {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#686868;
+	font-size:18px;
+	margin-top:-25px;
+	margin-bottom:30px;
+	width:400px;
+	list-style-type:square;
+	list-style-color:#0085b5;
+	
+}
+	
+#volunteering h3 {
+	font-family: 'Alfa Slab One', cursive;
+	color: #0085b5;
+	font-size:40px;
+	font-weight:normal;
+	width:inherit;
+	
+}
+
+#volunteering p {
+	width:400px;
+	
+}
+
+#volunteer h4{
+	font-family: 'Alfa Slab One', cursive;
+	color: #0085b5;
+	font-size:20px;
+	font-weight:normal;
+	margin-top:0px;
+	width:inherit;
+}
+	
+#training {
+	float:left;
+	width:350px;
+	margin-left:100px;
+}
+
+#training h3 {
+	font-weight:normal;
+	font-size:40px;
+	
+}
+
+#training h4{
+	font-family: 'Alfa Slab One', cursive;
+	color: #0085b5;
+	font-size:20px;
+	font-weight:normal;
+}
+
+#training p{
+	float:left;
+	width:inherit;
+}
+
+
+#thanks {
+	width:1000px;
+	
+}
+
+#thanks h3{
+	width:675px;
+	margin-left:0px;
+	font-size:40px;
+	
+}
+
+#thanks img{ 
+	width:350px;
+	float:right;
+	margin-top:-120px;
+	
+}
+
+#story {
+	background: #fff;
+	background-repeat:repeat-x;
+	height:auto;
+	display: block;
+	/*margin-top:-200px;*/
+}
+
+#story_wrapper {
+	width:1000px;
+	margin: 0px auto;
+	min-height:800px;
+	
+}
+
+#text {
+	float:left;
+	width:495px;
+}
+	
+#photos{
+	float:right;
+	width:415px;
+
+	margin-top:40px;
+
+	
+}
+	
+#story h2{
+	font-family: 'Alfa Slab One', cursive;
+	color: #0085b5;
+	text-align:center;
+	font-size:40px;
+	font-weight:100;
+	padding-bottom:0px;
+	/*padding-top:100px*/
+	
+}
+
+#text a {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#686868;
+	font-size:18px;
+	margin-top:-25px;
+	margin-bottom:15px;
+	padding-bottom:0px;
+	font-weight:normal;
+}
+}
+
+#text p{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#686868;
+	font-size:18px;
+	margin-top:-25px;
+	margin-bottom:15px;
+	padding-bottom:0px;
+	font-weight:normal;
+}
+
+#story img {
+	padding-bottom:20px;
+}
+
+#contact {
+	/*background: url(../images/contactus.png) top center;*/
+	background: #6aafcb;
+	padding:0px;
+	margin:0px auto;
+}
+
+#contact_wrapper {
+	display: block;
+	width:1000px;
+	margin:0px auto;
+	height:auto;
+}
+
+#contact h2{
+	font-family: 'Alfa Slab One', cursive;
+	color: #0085b5;
+	text-align:center;
+	font-size:40px;
+	font-weight:100;
+	/*padding-top:100px;*/
+	margin-bottom:50px;
+		
+
+}
+
+#contact_wrapper p {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#FFF;
+	font-size:18px;
+	font-weight:normal;
+	
+}
+
+#contact p {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:23px;
+	font-weight:normal;
+	padding-top:0px;
+	margin:0px auto;
+	
+}
+
+#contact h4{
+	font-family: 'Alfa Slab One', cursive;
+	color: #e3e3e3;
+	font-size:20px;
+	font-weight:normal;
+	width:450px;
+	margin:0px;
+	padding-top:0px;
+	
+}
+
+#contact h4 a{
+	font-family: 'Alfa Slab One', cursive;
+	color: #fff;
+	font-size:30px;
+	font-weight:normal;
+	width:450px;
+	margin:0px;
+	padding-top:0px;
+	text-decoration:none;
+	
+}
+
+#contact img {
+	Padding-top:60px;
+	padding-bottom:0px;
+} 
+
+.contact_person {
+	float:right;
+	width:475px;
+	padding-bottom:30px;
+}
+
+.contact_person_left {
+	float:left;
+	width:475px;
+	margin-right:50px;
+	padding-bottom:30px;
+	margin-top:0px;
+}
+
+#sponsors {
+	/*height:1500px;*/
+	display: block;
+	background-color:#e3e3e3;
+	padding:0px;
+	/*margin-top:-200px;	*/
+	
+}
+
+#sponsors_wrapper {
+	width:1000px;
+	margin:0px auto;
+	height:auto;
+	padding:0px;
+}
+
+#sponsors img {
+	margin:0px auto;
+	padding-top:60px;
+	
+}
+
+#sponsors h2{
+	font-family: 'Alfa Slab One', cursive;
+	text-align:center;
+	font-size:40px;
+	font-weight:100;
+	padding-top:0px;
+	margin-top:0px auto;
+	
+}
+
+
+.clear {
+	clear:both;
+	
+}
