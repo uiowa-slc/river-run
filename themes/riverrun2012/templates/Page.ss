@@ -119,6 +119,8 @@ $Training
 <img src="$StoryImage1.URL" />
 <img src="$StoryImage2.URL" />
   </div>
+  <div class="clear"></div>
+  </div><!-- end story wrapper -->
 </div><!-- end story section -->
 
 <div class="separator" id="contact_separate"></div>
