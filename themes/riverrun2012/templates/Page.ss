@@ -48,7 +48,7 @@
 		           $Form
 
           <p>$SiteConfig.Tagline</p>
-            <a  class="summary_button" href="http://www.signmeup.com/80802">Register Now</a>
+            <a  class="summary_button" target="_blank" href="https://www.signmeup.com/site/reg/register.aspx?fid=LK2VBJ7">Register Now</a>
             <div id="social_media"> 
             <a target="_blank" href="https://twitter.com/#!/uiriverrun"><img src="$ThemeDir/images/twitter.png"/></a>
             <a target="_blank" href="https://www.facebook.com/pages/RiverRun/338785644635"><img src="$ThemeDir/images/facebook.png"/></a>
@@ -91,7 +91,7 @@
  
     <h2><img src="$ThemeDir/images/volunteerhead.png" /></h2>
     <div id="volunteer_wrapper">
-      <h3>Want to help out at River Run?<a class="volunteer_wrapper_button" href="http://www.surveymonkey.com/s/VKC65CT">Sign Up Here</a></h3>
+      <h3>Want to help out at River Run?<a class="volunteer_wrapper_button" target="_blank" href="https://docs.google.com/forms/d/10jNClLRYKX_Rg44DOK4jCTzdbmbV6u_nx_398FZfDCc/viewform?sid=51f8820834d5f&token=CJL4DT0BAAA.8ppCGBNJmE7y8w7zIEAuyA.lXBhs0R5wORxVuPsDttdcw&pli=1">Sign Up Here</a></h3>
       <div id="volunteering">
        $Volunteer
       </div> <!-- end volunteering -->
