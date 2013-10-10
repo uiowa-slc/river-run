@@ -24,7 +24,11 @@
   <div id="wordmark">
   <a target="_blank" href="http://www.uiowa.edu"><span>The University of Iowa</span></a>
   </div>
+  <div class = "eventDate">
+  		<p> Hey you, Pikachu! </p>
+  </div>
   <div id="header_wrapper">
+ 	
     <div id="nav">
       <ul>
         <li><a class="info_nav" href="#race_info">race info</a></li>
