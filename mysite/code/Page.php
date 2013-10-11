@@ -32,10 +32,8 @@ function getCMSFields() {
 	$fields->addFieldToTab('Root.Contact', new HTMLEditorField('Contact', 'Contact'));
 	
 	$fields->addFieldToTab('Root.Main', new UploadField('MainImage', 'Main Image  497px x 378px (at 72 dpi)', null, null, null, $this->ClassName));
-	
-	$datefield2 = new DateField('EventDate','Event Date (Please fill out)');
-	$datefield2->setConfig('showcalendar', true);
-	$fields->addFieldToTab('Root.Main', $datefield2);
+
+	$fields->addFieldToTab('Root.Main', new TextField('EventDate', 'Enter the event date (eg. October 9, 2013') );
 	
 	$fields->addFieldToTab('Root.Story', new UploadField('StoryImage1', 'Story Image  1  411px x 305px (at 72 dpi)', null, null, null, $this->ClassName));
 	$fields->addFieldToTab('Root.Story', new UploadField('StoryImage2', 'Story Image  2  411px x 305px (at 72 dpi)', null, null, null, $this->ClassName));
