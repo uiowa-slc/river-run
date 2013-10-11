@@ -25,7 +25,7 @@
   <a target="_blank" href="http://www.uiowa.edu"><span>The University of Iowa</span></a>
   </div>
   <div class = "eventDate">
-  		<p> Hey you, Pikachu! </p>
+  		<p> $EventDate </p>
   </div>
   <div id="header_wrapper">
  	

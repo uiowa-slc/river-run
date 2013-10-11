@@ -7,7 +7,8 @@ class Page extends SiteTree {
 	"Volunteer" => "HTMLText",
 	"Training" => "HTMLText",
 	"Story" => "HTMLText",
-	"Contact" => "HTMLText"
+	"Contact" => "HTMLText",
+	'EventDate' => 'Text'
 	
 	);
 
@@ -16,23 +17,29 @@ class Page extends SiteTree {
 	    'MainImage' => 'Image',
 		'StoryImage1' => 'Image',
 		'StoryImage2' => 'Image',
-		'SponsorImage' => 'Image'
+		'SponsorImage' => 'Image',
+		
 	
 	);
 	
 function getCMSFields() {
 	$fields = parent::getCMSFields();
 
-	$fields->addFieldToTab('Root.Content.Info', new HTMLEditorField('RaceInfo', 'Race Information'));
-	$fields->addFieldToTab('Root.Content.Volunteer', new HTMLEditorField('Volunteer', 'Volunteer'));
-	$fields->addFieldToTab('Root.Content.Volunteer', new HTMLEditorField('Training', 'Training'));
-	$fields->addFieldToTab('Root.Content.Story', new HTMLEditorField('Story', 'Story'));
-	$fields->addFieldToTab('Root.Content.Contact', new HTMLEditorField('Contact', 'Contact'));
+	$fields->addFieldToTab('Root.Info', new HTMLEditorField('RaceInfo', 'Race Information'));
+	$fields->addFieldToTab('Root.Volunteer', new HTMLEditorField('Volunteer', 'Volunteer'));
+	$fields->addFieldToTab('Root.Volunteer', new HTMLEditorField('Training', 'Training'));
+	$fields->addFieldToTab('Root.Story', new HTMLEditorField('Story', 'Story'));
+	$fields->addFieldToTab('Root.Contact', new HTMLEditorField('Contact', 'Contact'));
 	
-	$fields->addFieldToTab('Root.Content.Main', new ImageField('MainImage', 'Main Image  497px x 378px (at 72 dpi)', null, null, null, $this->ClassName));
-	$fields->addFieldToTab('Root.Content.Story', new ImageField('StoryImage1', 'Story Image  1  411px x 305px (at 72 dpi)', null, null, null, $this->ClassName));
-	$fields->addFieldToTab('Root.Content.Story', new ImageField('StoryImage2', 'Story Image  2  411px x 305px (at 72 dpi)', null, null, null, $this->ClassName));
-	$fields->addFieldToTab('Root.Content.Sponsor', new ImageField('SponsorImage', 'Sponsor Image  494px x 627px (at 72 dpi)', null, null, null, $this->ClassName));
+	$fields->addFieldToTab('Root.Main', new UploadField('MainImage', 'Main Image  497px x 378px (at 72 dpi)', null, null, null, $this->ClassName));
+	
+	$datefield2 = new DateField('EventDate','Event Date (Please fill out)');
+	$datefield2->setConfig('showcalendar', true);
+	$fields->addFieldToTab('Root.Main', $datefield2);
+	
+	$fields->addFieldToTab('Root.Story', new UploadField('StoryImage1', 'Story Image  1  411px x 305px (at 72 dpi)', null, null, null, $this->ClassName));
+	$fields->addFieldToTab('Root.Story', new UploadField('StoryImage2', 'Story Image  2  411px x 305px (at 72 dpi)', null, null, null, $this->ClassName));
+	$fields->addFieldToTab('Root.Sponsor', new UploadField('SponsorImage', 'Sponsor Image  494px x 627px (at 72 dpi)', null, null, null, $this->ClassName));
 	
 		return $fields;
 	
