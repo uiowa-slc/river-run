@@ -23,10 +23,7 @@
   <div id="headerNew">
   <div id="wordmark">
   <a target="_blank" href="http://www.uiowa.edu"><span>The University of Iowa</span></a>
-  </div>-->
-  <!-<div class = "eventDate">
-  		<!---<h3 class = "eventDate"> $EventDate </h3>-->
-  <!-</div>
+  </div>
   <div id="header_wrapper">
  	
     <div id="nav">
