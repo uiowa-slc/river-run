@@ -20,10 +20,10 @@
 <a name="top"></a>
 
 <div id="background_wrapper">
-  <div id="header">
+  <div id="headerNew">
   <div id="wordmark">
   <a target="_blank" href="http://www.uiowa.edu"><span>The University of Iowa</span></a>
-  </div>
+  </div>-->
   <!-<div class = "eventDate">
   		<!---<h3 class = "eventDate"> $EventDate </h3>-->
   <!-</div>

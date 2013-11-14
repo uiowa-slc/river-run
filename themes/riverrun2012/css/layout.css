@@ -8,10 +8,11 @@ body{
 
 #background_wrapper { 
 	min-width:1000px;
-	background: url(../images/repeat_bg.png);
+	/*background: url(../images/repeat_bg.png);*/
 	background-repeat: repeat-x;
 	background-position: top;
 	margin:0px;
+	background-color: #005074;
 
 	
 }
@@ -45,7 +46,12 @@ body{
 	height:639px;	
 	display:block;
 }
-
+#headerNew{
+	background: url(../images/RiverrunHeader.png) top center;
+	background-repeat:no-repeat;
+	height:317px;	
+	display:block;
+}
 #header_wrapper {
 	width:1000px;
 	margin:0px auto;
@@ -85,15 +91,15 @@ a#back_to_top {
 	display:block;
 	bottom:0px;
 	float:left;
-	margin-left:300px;
-	margin-top:394px;
+	margin-left:528px;
+	margin-top:250px;
 }
 
 #nav ul li {
 	float: left;
 	display: block;
 	width:auto;
-	margin-left:25px;
+	margin-left:20px;
 	
 }
 
@@ -107,7 +113,7 @@ a#back_to_top {
 #nav a {
 	border:none;
 	background:none;
-	font-size:20px;
+	font-size:13px;
 	font-weight:bold;
 	font-family: Tahoma, Geneva, sans-serif;
 	text-decoration:none;
