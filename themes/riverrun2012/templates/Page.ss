@@ -47,7 +47,6 @@
       <h2>River Run is more than a race.</h2>
 		<div id="about">
 		           $Form
-
           <p>$SiteConfig.Tagline</p>
             <a  class="summary_button" target="_blank" href="https://www.signmeup.com/site/reg/register.aspx?fid=XV2V3J7">Register Now</a>
             <div id="social_media"> 
@@ -77,8 +76,9 @@
       
       <div id="where">
         <h3>Where</h3>
-        <img src="$ThemeDir/images/map.png" style="margin-bottom:20px;" /> <br />
+        <img src="$ThemeDir/images/map.png" style="margin-bottom:20px;" /> <p>*course map is subject to change</p><br />
         <a class="where_button"  target="_blank" href="http://www.google.com/maps?f=d&daddr=Iowa%20Memorial%20Union%20Iowa%20City,%20IA">Get Directions</a>
+        
     
      </div><!-- end where -->
       <div class="clear"></div>
@@ -132,11 +132,7 @@ $Training
    $Contact
     
     <div class="clear"></div>
-
-
-    
- 
-    
+  
 
   </div><!-- end contact_wrapper -->
 </div><!-- end contact section -->

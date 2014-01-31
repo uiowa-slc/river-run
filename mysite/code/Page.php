@@ -8,8 +8,7 @@ class Page extends SiteTree {
 	"Training" => "HTMLText",
 	"Story" => "HTMLText",
 	"Contact" => "HTMLText",
-	'EventDate' => 'Text'
-	
+	"EventDate" => "Text",	
 	);
 
 	public static $has_one = array(
