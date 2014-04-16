@@ -76,9 +76,10 @@
       
       <div id="where">
         <h3>Where</h3>
-        <!--<img src="$ThemeDir/images/map.png" style="margin-bottom:20px;" /> <p>*course map is subject to change</p><br />-->
-        <p>The route has changed this year! Check back soon for the new route. </p>
-        <a class="where_button"  target="_blank" href="http://www.google.com/maps?f=d&daddr=Iowa%20Memorial%20Union%20Iowa%20City,%20IA">Get Directions</a>
+       <a href="{$ThemeDir}/images/map_large.png" target="_blank"><img src="$ThemeDir/images/map.png" style="margin-bottom:20px;" /></a> <p>*course map is subject to change</p>
+       <p><a href="{$ThemeDir}/images/map_large.png" target="_blank">Download a larger version of the map</a></p>
+
+        <p><a class=""  target="_blank" href="http://goo.gl/xvc1xX">Get Directions to the Start/Finish Line</a></p>
         
     
      </div><!-- end where -->
@@ -144,7 +145,7 @@ $Training
 <div class="section" id="sponsors">
   	<h2><img src="$ThemeDir/images/sponsorshead.png" /></h2>
   	<div id="sponsors_wrapper">
-  	<img src="$SponsorImage.URL" style="padding-top:0px;"/> 
+  	<img src="{$ThemeDir}/images/sponsor-logos.png" style="padding-top:0px;"/> 
     </div>
 </div><!-- end sponsors section -->
   
