@@ -1,7 +1,7 @@
 <?php
 class Page extends SiteTree {
 
-	public static $db = array(
+	private static $db = array(
 							  
 	"RaceInfo" => "HTMLText",
 	"Volunteer" => "HTMLText",
@@ -11,7 +11,7 @@ class Page extends SiteTree {
 	"EventDate" => "Text",	
 	);
 
-	public static $has_one = array(
+	private static $has_one = array(
 								   
 	    'MainImage' => 'Image',
 		'StoryImage1' => 'Image',
@@ -59,7 +59,7 @@ class Page_Controller extends ContentController {
 	 *
 	 * @var array
 	 */
-	public static $allowed_actions = array (
+	private static $allowed_actions = array (
 	);
 
 	public function init() {
