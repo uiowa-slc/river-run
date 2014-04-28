@@ -48,12 +48,16 @@
 		<div id="about">
 		           $Form
           <p>$SiteConfig.Tagline</p>
-            <a  class="summary_button" target="_blank" href="https://www.signmeup.com/site/reg/register.aspx?fid=XV2V3J7">Register Now</a>
+            <!--<a  class="summary_button" target="_blank" href="https://www.signmeup.com/site/reg/register.aspx?fid=XV2V3J7">Register Now</a>-->
             <div id="social_media"> 
             <a target="_blank" href="https://twitter.com/#!/uiriverrun"><img src="$ThemeDir/images/twitter.png"/></a>
             <a target="_blank" href="https://www.facebook.com/pages/RiverRun/338785644635"><img src="$ThemeDir/images/facebook.png"/></a>
             </div>
-            </div>
+          <h3>2014 Results</h3>
+          <p><a href="results/2014/5k-team.html" target="_blank">5K Team</a></p>
+          <p><a href="results/2014/5k-overall.html" target="_blank">5K Overall</a></p>
+          <p><a href="results/2014/10k-overall.html" target="_blank">10K Overall</a></p>
+    </div>
             <div id="photo">
           <img src="$MainImage.URL" />
           </div>
