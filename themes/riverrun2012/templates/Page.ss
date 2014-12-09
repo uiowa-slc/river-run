@@ -50,8 +50,8 @@
           <p>$SiteConfig.Tagline</p>
             <!--<a  class="summary_button" target="_blank" href="https://www.signmeup.com/site/reg/register.aspx?fid=XV2V3J7">Register Now</a>-->
             <div id="social_media"> 
-            <a target="_blank" href="https://twitter.com/#!/uiriverrun"><img src="$ThemeDir/images/twitter.png"/></a>
-            <a target="_blank" href="https://www.facebook.com/pages/RiverRun/338785644635"><img src="$ThemeDir/images/facebook.png"/></a>
+            <a target="_blank" href="https://twitter.com/#!/uiriverrun"><img src="$ThemeDir/images/twitter.png" alt="Twiiter Button"/></a>
+            <a target="_blank" href="https://www.facebook.com/pages/RiverRun/338785644635"><img src="$ThemeDir/images/facebook.png" alt="Facebook Button"/></a>
             </div>
           <h3>2014 Results</h3>
           <p><a href="results/2014/5k-team.html" target="_blank">5K Team</a></p>
@@ -59,7 +59,7 @@
           <p><a href="results/2014/10k-overall.html" target="_blank">10K Overall</a></p>
     </div>
             <div id="photo">
-          <img src="$MainImage.URL" />
+          <img src="$MainImage.URL" alt="main photo"/>
           </div>
           <div class="clear"></div>
         
@@ -70,7 +70,7 @@
 
   
   <div class="section" id="race_info">
-    <h2><img src="$ThemeDir/images/infohead.png"></h2>
+    <h2><img src="$ThemeDir/images/infohead.png" alt="Race Info header"></h2>
     <div id="info_wrapper">
       <div id="race_info_content">
         <div id="when">
@@ -80,8 +80,8 @@
       
       <div id="where">
         <h3>Where</h3>
-       <a href="{$ThemeDir}/images/map_large.png" target="_blank"><img src="$ThemeDir/images/map.png" style="margin-bottom:20px;" /></a> <p>*course map is subject to change</p>
-       <p><a href="{$ThemeDir}/images/map_large.png" target="_blank">Download a larger version of the map</a></p>
+       <a href="{$ThemeDir}/images/map_large.png" alt="map image" target="_blank"><img src="$ThemeDir/images/map.png" alt="map image" style="margin-bottom:20px;" /></a> <p>*course map is subject to change</p>
+       <p><a href="{$ThemeDir}/images/map_large.png" alt="map image" target="_blank">Download a larger version of the map</a></p>
 
         <p><a class=""  target="_blank" href="http://goo.gl/xvc1xX">Get Directions to the Start/Finish Line</a></p>
         
@@ -96,7 +96,7 @@
   
   <div class="section" id="volunteer">
  
-    <h2><img src="$ThemeDir/images/volunteerhead.png" /></h2>
+    <h2><img src="$ThemeDir/images/volunteerhead.png" alt="Volunteer Header"/></h2>
     <div id="volunteer_wrapper">
       <h3>Want to help out at River Run?<a class="volunteer_wrapper_button" target="_blank" href="https://docs.google.com/forms/d/10jNClLRYKX_Rg44DOK4jCTzdbmbV6u_nx_398FZfDCc/viewform?sid=51f8820834d5f&token=CJL4DT0BAAA.8ppCGBNJmE7y8w7zIEAuyA.lXBhs0R5wORxVuPsDttdcw&pli=1">Sign Up Here</a></h3>
       <div id="volunteering">
@@ -108,7 +108,7 @@ $Training
       <div class="clear"></div>
       <div id="thanks">
         <h3>Thank you for Volunteering!</h3>
-        <img src="$ThemeDir/images/logo.png" />
+        <img src="$ThemeDir/images/logo.png" alt="River Run Logo"/>
       </div><!-- end thanks -->
     </div><!-- end volunteer_wrapper -->
   </div><!-- end volunteer section -->
@@ -117,14 +117,14 @@ $Training
 
 
 <div class="section" id="story">
-  <h2><img src="$ThemeDir/images/storyhead.png" style="padding-top:60px;"/></h2>
+  <h2><img src="$ThemeDir/images/storyhead.png" alt="story header" style="padding-top:60px;"/></h2>
   <div id="story_wrapper">
   <div id="text">
   $Story
   </div>
   <div id="photos">
-<img src="$StoryImage1.URL" />
-<img src="$StoryImage2.URL" />
+<img src="$StoryImage1.URL" alt="image"/>
+<img src="$StoryImage2.URL" alt="image"/>
   </div>
   <div class="clear"></div>
   </div><!-- end story wrapper -->
@@ -134,7 +134,7 @@ $Training
 
 <div class="section" id="contact">
   <div id="contact_wrapper">
-    <h2><img src="$ThemeDir/images/contacthead.png" /></h2>
+    <h2><img src="$ThemeDir/images/contacthead.png" alt="Contact Header"/></h2>
    $Contact
     
     <div class="clear"></div>
@@ -147,9 +147,9 @@ $Training
 <div class="separator" id="sponsors_separate"></div>
 
 <div class="section" id="sponsors">
-  	<h2><img src="$ThemeDir/images/sponsorshead.png" /></h2>
+  	<h2><img src="$ThemeDir/images/sponsorshead.png" alt="Sponsors Header"/></h2>
   	<div id="sponsors_wrapper">
-  	<img src="{$ThemeDir}/images/sponsor-logos.png" style="padding-top:0px;"/> 
+  	<img src="{$ThemeDir}/images/sponsor-logos.png" alt="Sponsors Logos" style="padding-top:0px;"/> 
     </div>
 </div><!-- end sponsors section -->
   
