@@ -5,10 +5,10 @@
 		<!-- $Form -->
 		<div class="our-programs">
 			<div class="row">
-					<div class="medium-6 large-3 columns">
+					<div class="medium-6 large-6 columns">
 						$LeftColumnContent
 					</div>
-					<div class="medium-6 large-3 columns">
+					<div class="medium-6 large-6 columns">
 						$RightColumnContent
 					</div>
 			</div>
