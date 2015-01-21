@@ -10,3 +10,12 @@
 
 	}
 }
+
+.home-quicklinks {
+	& .quicklinks-title {
+		color: #fff;
+		& span {
+			color: darken($primary-color, 18);
+		}
+	}
+}
