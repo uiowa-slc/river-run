@@ -59,7 +59,11 @@ module.exports = function(grunt) {
         files: ['<%=globalConfig.themeDir %>/scss/*.scss',
                 '<%=globalConfig.themeDir %>/scss/**/*.scss',
                 '<%=globalConfig.themeDir %>/scss/**/**/*.scss',
-                'cfo-project/css/app.css'
+                'cfo-project/scss/*.scss',
+                'cfo-project/scss/**/*.scss',
+                'cfo-project/scss/**/**/*.scss'
+                //'cfo-project/css/app.css'
+
                 ],
         tasks: ['sass'],
         options: {
