@@ -28,10 +28,7 @@ module.exports = function(grunt) {
     concat: {
       js:{
         src: [
-          'cfo-project/bower_components/modernizr/modernizr.js',
-          'cfo-project/bower_components/foundation/js/foundation.min.js',
-          'cfo-project/bower_components/FlexSlider/jquery.flexslider.js',
-          'division-bar/js/division-bar.js',
+          'cfo-project/build/build.src.js',
           '<%=globalConfig.themeDir %>/javascript/*.js'
         ],
         dest: '<%=globalConfig.themeDir %>/build/build.src.js'
@@ -51,7 +48,7 @@ module.exports = function(grunt) {
 
     watch: {
       scripts: {
-        files: ['<%=globalConfig.themeDir %>/js/*.js', '<%=globalConfig.themeDir %>/js/**/*.js'],
+        files: ['<%=globalConfig.themeDir %>/js/*.js', '<%=globalConfig.themeDir %>/js/**/*.js', 'cfo-project/build/build.src.js'],
         tasks: ['concat', 'uglify'],
         options: {
           spawn: true,
@@ -61,7 +58,12 @@ module.exports = function(grunt) {
       css: {
         files: ['<%=globalConfig.themeDir %>/scss/*.scss',
                 '<%=globalConfig.themeDir %>/scss/**/*.scss',
-                '<%=globalConfig.themeDir %>/scss/**/**/*.scss'
+                '<%=globalConfig.themeDir %>/scss/**/**/*.scss',
+                'cfo-project/scss/*.scss',
+                'cfo-project/scss/**/*.scss',
+                'cfo-project/scss/**/**/*.scss'
+                //'cfo-project/css/app.css'
+
                 ],
         tasks: ['sass'],
         options: {
