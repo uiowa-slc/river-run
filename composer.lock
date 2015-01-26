@@ -1,7 +1,8 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
     "hash": "b1206b2bea0770d7b9d86d6b057ed385",
     "packages": [
@@ -53,12 +54,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "1bff8aa77a18f3616f468ed8000cf86a5725bac3"
+                "reference": "2d91dc9ce37bbf876cd408d483270a07001d8c7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/1bff8aa77a18f3616f468ed8000cf86a5725bac3",
-                "reference": "1bff8aa77a18f3616f468ed8000cf86a5725bac3",
+                "url": "https://api.github.com/repos/composer/installers/zipball/2d91dc9ce37bbf876cd408d483270a07001d8c7d",
+                "reference": "2d91dc9ce37bbf876cd408d483270a07001d8c7d",
                 "shasum": ""
             },
             "replace": {
@@ -139,7 +140,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-01-11 03:51:11"
+            "time": "2015-01-21 21:08:45"
         },
         {
             "name": "jonom/focuspoint",
@@ -226,12 +227,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events.git",
-                "reference": "05313a3eb585dd32d5530438a3173acc5dbd980c"
+                "reference": "e2dddc773741e07b82012bd88b13ed8e3e78e5a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/05313a3eb585dd32d5530438a3173acc5dbd980c",
-                "reference": "05313a3eb585dd32d5530438a3173acc5dbd980c",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/e2dddc773741e07b82012bd88b13ed8e3e78e5a3",
+                "reference": "e2dddc773741e07b82012bd88b13ed8e3e78e5a3",
                 "shasum": ""
             },
             "require": {
@@ -250,7 +251,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
             },
-            "time": "2014-11-10 19:01:47"
+            "time": "2015-01-26 18:58:07"
         },
         {
             "name": "md/cfo-project",
@@ -258,12 +259,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/cfo-project.git",
-                "reference": "b3e04f80d30ecd0c2e7fe996c92021f6eb1593bb"
+                "reference": "49afc565f4802a924304ec564885fb4233d75d04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/b3e04f80d30ecd0c2e7fe996c92021f6eb1593bb",
-                "reference": "b3e04f80d30ecd0c2e7fe996c92021f6eb1593bb",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/49afc565f4802a924304ec564885fb4233d75d04",
+                "reference": "49afc565f4802a924304ec564885fb4233d75d04",
                 "shasum": ""
             },
             "require": {
@@ -297,10 +298,10 @@
             },
             "description": "The University of Iowa CFO Project Code and Theme",
             "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/tree/master",
+                "source": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/tree/sponsors-feature",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/issues"
             },
-            "time": "2015-01-21 17:02:47"
+            "time": "2015-01-22 20:24:09"
         },
         {
             "name": "md/division-bar",
@@ -977,6 +978,8 @@
     "stability-flags": {
         "md/cfo-project": 20
     },
+    "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.2"
     },
