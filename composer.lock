@@ -259,12 +259,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/cfo-project.git",
-                "reference": "49afc565f4802a924304ec564885fb4233d75d04"
+                "reference": "264b00fb846067d9ba16dfc0074868fb5c318f8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/49afc565f4802a924304ec564885fb4233d75d04",
-                "reference": "49afc565f4802a924304ec564885fb4233d75d04",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/264b00fb846067d9ba16dfc0074868fb5c318f8a",
+                "reference": "264b00fb846067d9ba16dfc0074868fb5c318f8a",
                 "shasum": ""
             },
             "require": {
@@ -298,10 +298,10 @@
             },
             "description": "The University of Iowa CFO Project Code and Theme",
             "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/tree/sponsors-feature",
+                "source": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/issues"
             },
-            "time": "2015-01-22 20:24:09"
+            "time": "2015-02-12 18:13:52"
         },
         {
             "name": "md/division-bar",
