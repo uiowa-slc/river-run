@@ -52,7 +52,7 @@ module.exports = function(grunt) {
         tasks: ['concat', 'uglify'],
         options: {
           spawn: true,
-          livereload: true
+          //livereload: true
         }
       },
       css: {
@@ -68,7 +68,7 @@ module.exports = function(grunt) {
         tasks: ['sass'],
         options: {
           spawn: true,
-          livereload: true
+          //livereload: true
         }
       }
     },
