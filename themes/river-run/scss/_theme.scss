@@ -1,12 +1,20 @@
 .HomePage .main-nav {
 	margin-top: 2em;
 }
+//Logo on interior pages
 .header .logo{
-  width: 23%;
-  margin-top: 19px;
+	margin-top: 10px;
+	@media #{$large-up} {
+	  width: 23%;
+	  margin-top: 19px;
+	}
 }
+
+//Logo on homepage
 .HomePage .header .logo{
-	margin-top: 28px;
+	@media #{$large-up} {
+		margin-top: 28px;
+	}
 }
 .main-nav {
 	@media #{$large-up} {
