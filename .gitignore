@@ -38,3 +38,7 @@ tagfield
 segment-field
 gridfieldextensions
 lumberjack
+nocaptcha/
+reports/
+secureassets/
+siteconfig/
