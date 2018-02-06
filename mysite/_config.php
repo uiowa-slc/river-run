@@ -51,8 +51,8 @@ GD::set_default_quality(80);
 
 
 //Race info embed isn't ssl :/
-if(Director::isLive()) {
-	Director::forceSSL(array('/^admin/', '/^Security/'));
-}
+// if(Director::isLive()) {
+// 	Director::forceSSL(array('/^admin/', '/^Security/'));
+// }
 Authenticator::unregister('MemberAuthenticator');
 Authenticator::set_default_authenticator('SAMLAuthenticator');
