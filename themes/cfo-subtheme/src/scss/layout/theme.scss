@@ -1,6 +1,6 @@
 body{
 	background-size: cover;
-	background-color: $highlight;
+	background-color: #6ccff6;
 	background-position-y: 170px;
 }
 .main-content__container{
@@ -12,7 +12,13 @@ body{
 	border-color: darken($highlight,10);
 }
 
+.main-content__header{
+	color: #2384c6;
+}
 
+.main-content__text p{
+	color: #052c48;
+}
 
 .button, input.action {
 	color: #e2393e;
@@ -21,12 +27,17 @@ body{
 	text-transform: uppercase;
 	font-size: rem-calc(22);
 }
-
-
+.breadcrumb__anchor--active{
+	color:#6ccff6;
+}
+.breadcrumb__anchor--active:hover{
+	color: #2384c6
+}
 #uiowa-bar #uiowa-search .links a{
 	color: white;
 }
 
 .background-image{
 	box-shadow: inset -2px 12px 26px -10px rgba(0,0,0,0.63);
+	color: #6ccff6;
 }
