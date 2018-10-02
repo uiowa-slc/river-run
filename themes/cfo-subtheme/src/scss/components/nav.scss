@@ -11,12 +11,12 @@
 	}
 
 	&__link{
-		color: white;
+		color: #000;
 		font-size: rem-calc(16);
 		padding-bottom: rem-calc(4);
 		border-bottom: 1px solid #4c4c4c;
 		&:hover{
-			color: #ccc;
+			color: #fff;
 			background-color: #222;
 		}
 		&--home{
@@ -28,7 +28,7 @@
 	}
 
 	&__info{
-		color: white;
+		color: black;
 		font-size: rem-calc(13);
 		margin: rem-calc(5);
 	}
