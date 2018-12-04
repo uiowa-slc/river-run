@@ -26,8 +26,8 @@
 
 <div class="row board-list">
 	<div class="large-12 columns">
-		<h4 class="subtitle">Our Staff Members</h4>
-		<a href="{$baseUrl}members/" class="text-center"><small>View all staff members</small></a>
+		<h4 class="subtitle">Our Executive Board</h4>
+		<a href="{$baseUrl}members/" class="text-center"><small>View all executive board members</small></a>
 		<br>
 		<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-5">
 			<% loop RandomStaffMembers(5) %>

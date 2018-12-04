@@ -58,6 +58,14 @@
 .orbit-container .orbit-slides-container>* .orbit-caption{
 	text-shadow: none;
 }
+
+.orbit-container .orbit-next>span {
+	border-left-color: $primary-color;
+}
+
+.orbit-container .orbit-prev>span {
+	border-right-color: $primary-color;
+}
 .social-blog{
 	border-top: none;
 
