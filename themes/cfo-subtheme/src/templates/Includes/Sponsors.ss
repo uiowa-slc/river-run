@@ -1,0 +1,7 @@
+<div class="sponsors grid-x">
+	<% loop Sponsors %>
+		<div class="sponsors__item cell small-6 large-3">
+			<img src="$SponsorPhoto.Pad(300,300).URL" alt="$Title" />
+		</div>
+	<% end_loop %>
+</div>
