@@ -1,7 +1,8 @@
 body{
-	background-size: cover;
-	background-color: #6ccff6;
-	background-position-y: 170px;
+
+	background-image: url("../images/bg.png");
+	background-color: #4383c1;
+
 }
 .main-content__container{
 	background: white;
@@ -12,20 +13,18 @@ body{
 	border-color: darken($highlight,10);
 }
 
-.main-content__header{
-	color: #2384c6;
+.header__site-title{
+	font-variant: small-caps;
+	text-transform: none;
 }
 
 .main-content__text p{
 	color: #052c48;
 }
 
-.button, input.action {
-	color: #e2393e;
-	background: white;
-	font-weight: bold;
-	text-transform: uppercase;
-	font-size: rem-calc(22);
+.button.gold{
+	background-color: $highlight;
+	color: white;
 }
 .breadcrumb__anchor--active{
 	color:#6ccff6;

@@ -12,4 +12,8 @@ class Page extends SiteTree
     private static $create_table_options = [
         MySQLSchemaManager::ID => 'ENGINE=MyISAM'
     ];
+
+    public function Sponsors(){
+    	return Sponsor::get();
+    }
 }

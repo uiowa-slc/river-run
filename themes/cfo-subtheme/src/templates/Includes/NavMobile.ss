@@ -17,7 +17,7 @@
       <a href="http://uiowa.edu" class="nav-mobile__ui-logo"><img class="dp-lazy" data-original="division-project/images/ui-logo-footer.png" alt="The University of Iowa"></a>
     <% else %>
       <a href="http://studentlife.uiowa.edu" class="nav-mobile__dsl-logo"><img class="dp-lazy" width="300" height="81
-    " data-original="{$ThemeDir}/dist/images/dosl-uiowa.png" alt="Division Of Student Life"></a>
+    " data-original="{$ThemeDir}/dist/images/dosl-uiowa-black.png" alt="Division Of Student Life"></a>
     <% end_if %>
     <% if $SiteConfig.GroupSummary %>
       <div class="nav-mobile__summary">$SiteConfig.GroupSummary</div>
