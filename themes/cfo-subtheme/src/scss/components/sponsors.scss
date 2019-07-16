@@ -1,0 +1,11 @@
+.sponsors{
+	background: white;
+	&__item{
+		padding: rem-calc(20);
+		img{
+			width: 50%;
+			display: block;
+			margin: auto;
+		}
+	}
+}

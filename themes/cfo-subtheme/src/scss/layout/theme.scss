@@ -1,0 +1,59 @@
+body{
+
+	background-image: url("../images/bg.png");
+	background-color: #4383c1;
+
+}
+.main-content__container{
+	background: white;
+	box-shadow: inset 0px 10px 13px -7px rgba(0,0,0,0.31);
+}
+
+.sidenav__section-title{
+	border-color: darken($highlight,10);
+}
+
+.header__site-title{
+	font-variant: small-caps;
+	text-transform: none;
+}
+
+.main-content__text p{
+	color: #052c48;
+}
+
+.button.gold{
+	background-color: $highlight;
+	color: white;
+}
+.breadcrumb__anchor--active{
+	color:#6ccff6;
+}
+.breadcrumb__anchor--active:hover{
+	color: #2384c6
+}
+#uiowa-bar #uiowa-search .links a{
+	color: white;
+}
+
+.background-image{
+	box-shadow: inset -2px 12px 26px -10px rgba(0,0,0,0.63);
+	color: #6ccff6;
+}
+.sponsors-footer{
+	background-color:#fff;
+	padding-bottom:20px;
+	margin:auto;
+}
+.sponsors-header{
+	background-color:#fff;
+	text-align:center;
+	margin-top:0px;
+	padding-top:20px;
+}
+.sponsors-grid{
+	margin:auto;
+}
+.cell-x{
+	margin:auto;
+}
