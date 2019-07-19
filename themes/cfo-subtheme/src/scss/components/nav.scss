@@ -586,7 +586,7 @@
 	width: rem-calc(50);
 	left: 0;
 
-	@include breakpoint(425) {
+	@include breakpoint(375) {
 		width: rem-calc(100);
 	}
 }
@@ -608,7 +608,7 @@
 
 	}
 
-	@include breakpoint(425) {
+	@include breakpoint(375) {
 		opacity: 1;
 	}
 }
