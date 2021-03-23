@@ -3,5 +3,10 @@ Name: myproject
 ---
 SilverStripe\Core\Manifest\ModuleManifest:
   project: mysite
-SilverStripe\UserForms\Model\Recipient\EmailRecipient:
-  allow_unbound_recipient_fields: true
+SilverStripe\View\SSViewer:
+  themes:
+    - '$public'
+    - 'bootstrap'
+    - '$default'
+SilverStripe\Assets\InterventionBackend:
+  flush_enabled: false
